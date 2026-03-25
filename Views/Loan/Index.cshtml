@@ -1,0 +1,26 @@
+@model List<Loan>
+<h2>Loans</h2>
+<p><a asp-action="ApplyLoan"><button>Apply Loan</button></a></p>
+<table>
+    <tr><th>Loan Id</th><th>Customer Id</th><th>Amount</th><th>Interest Rate</th><th>Status</th><th>Actions</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.LoanId</td>
+            <td>@item.CustomerId</td>
+            <td>@item.LoanAmount</td>
+            <td>@item.InterestRate</td>
+            <td>@item.LoanStatus</td>
+            <td>
+                @if (item.LoanStatus == LoanStatus.APPLIED)
+                {
+                    <form asp-action="ApproveLoan" asp-route-id="@item.LoanId" method="post" style="display:inline">
+                        <button type="submit">Approve</button>
+                    </form>
+                }
+                <a asp-controller="Repayment" asp-action="CalculateInterest" asp-route-id="@item.LoanId">Interest</a> |
+                <a asp-controller="Repayment" asp-action="GetRepaymentHistory" asp-route-id="@item.LoanId">History</a>
+            </td>
+        </tr>
+    }
+</table>

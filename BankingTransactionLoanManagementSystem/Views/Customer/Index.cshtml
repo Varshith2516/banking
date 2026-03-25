@@ -1,0 +1,20 @@
+@model List<Customer>
+<h2>Customers</h2>
+<p><a asp-action="CreateAccount"><button>Create Account</button></a></p>
+<table>
+    <tr><th>ID</th><th>Name</th><th>Email</th><th>Contact</th><th>Accounts</th><th>Actions</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CustomerId</td>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.ContactInfo</td>
+            <td>@item.Accounts.Count</td>
+            <td>
+                <a asp-action="GetAccountDetails" asp-route-id="@item.CustomerId">View</a> |
+                <a asp-action="UpdateCustomerInfo" asp-route-id="@item.CustomerId">Edit</a>
+            </td>
+        </tr>
+    }
+</table>

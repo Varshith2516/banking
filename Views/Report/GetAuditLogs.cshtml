@@ -1,0 +1,15 @@
+@model List<AuditLog>
+<h2>Audit Logs</h2>
+<table>
+    <tr><th>Log Id</th><th>Transaction Id</th><th>Date</th><th>Action</th><th>Performed By</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.LogId</td>
+            <td>@item.TransactionId</td>
+            <td>@item.LogDate</td>
+            <td>@item.ActionPerformed</td>
+            <td>@item.PerformedBy</td>
+        </tr>
+    }
+</table>

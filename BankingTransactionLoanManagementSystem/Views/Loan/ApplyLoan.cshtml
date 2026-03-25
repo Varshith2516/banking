@@ -1,0 +1,8 @@
+@model LoanApplyViewModel
+<h2>Apply Loan</h2>
+<form asp-action="ApplyLoan" method="post" class="card">
+    <label>Customer Id</label><input asp-for="CustomerId" />
+    <label>Loan Amount</label><input asp-for="LoanAmount" />
+    <label>Interest Rate</label><input asp-for="InterestRate" />
+    <button type="submit">Apply</button>
+</form>

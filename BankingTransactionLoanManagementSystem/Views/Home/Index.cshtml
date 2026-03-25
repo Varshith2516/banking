@@ -1,0 +1,23 @@
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<h1>Banking Transaction & Loan Management System</h1>
+<div class="grid">
+    <div class="card"><h3>Total Customers</h3><p>@Model.Customers</p></div>
+    <div class="card"><h3>Total Accounts</h3><p>@Model.Accounts</p></div>
+    <div class="card"><h3>Total Transactions</h3><p>@Model.Transactions</p></div>
+    <div class="card"><h3>Total Loans</h3><p>@Model.Loans</p></div>
+    <div class="card"><h3>Total Balances</h3><p>@Model.TotalBalances</p></div>
+    <div class="card"><h3>Total Loan Amount</h3><p>@Model.TotalLoans</p></div>
+</div>
+<div class="card">
+    <h3>Modules</h3>
+    <ol>
+        <li>Customer Account & Profile Management</li>
+        <li>Transaction Processing</li>
+        <li>Loan Application & Approval Workflow</li>
+        <li>Loan Repayment & Interest Calculation</li>
+        <li>Financial Reporting & Audit Logs</li>
+    </ol>
+</div>

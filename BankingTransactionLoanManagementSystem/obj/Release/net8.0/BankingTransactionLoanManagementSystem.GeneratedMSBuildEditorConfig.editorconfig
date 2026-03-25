@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BankingTransactionLoanManagementSystem
+build_property.RootNamespace = BankingTransactionLoanManagementSystem
+build_property.ProjectDir = C:\Users\himav\Downloads\BankingTransactionLoanManagementSystem\BankingTransactionLoanManagementSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\himav\Downloads\BankingTransactionLoanManagementSystem\BankingTransactionLoanManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Customer/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Customer/GetAccountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcR2V0QWNjb3VudERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Customer/UpdateCustomerInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlQ3VzdG9tZXJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Loan/ApplyLoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxBcHBseUxvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Loan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Repayment/CalculateInterest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYXltZW50XENhbGN1bGF0ZUludGVyZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Repayment/GetRepaymentHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYXltZW50XEdldFJlcGF5bWVudEhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Repayment/RecordRepayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYXltZW50XFJlY29yZFJlcGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Report/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Report/GetAuditLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEdldEF1ZGl0TG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Transaction/DepositFunds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cRGVwb3NpdEZ1bmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Transaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Transaction/TransferFunds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cVHJhbnNmZXJGdW5kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/Transaction/WithdrawFunds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cV2l0aGRyYXdGdW5kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/himav/Downloads/BankingTransactionLoanManagementSystem/BankingTransactionLoanManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

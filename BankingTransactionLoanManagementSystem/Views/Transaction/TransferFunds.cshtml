@@ -1,0 +1,8 @@
+@model TransferViewModel
+<h2>Transfer Funds</h2>
+<form asp-action="TransferFunds" method="post" class="card">
+    <label>From Account Id</label><input asp-for="FromAccountId" />
+    <label>To Account Id</label><input asp-for="ToAccountId" />
+    <label>Amount</label><input asp-for="Amount" />
+    <button type="submit">Transfer</button>
+</form>

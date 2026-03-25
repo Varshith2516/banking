@@ -1,0 +1,7 @@
+@model RepaymentViewModel
+<h2>Record Repayment</h2>
+<form asp-action="RecordRepayment" method="post" class="card">
+    <label>Loan Id</label><input asp-for="LoanId" />
+    <label>Amount Paid</label><input asp-for="AmountPaid" />
+    <button type="submit">Record</button>
+</form>

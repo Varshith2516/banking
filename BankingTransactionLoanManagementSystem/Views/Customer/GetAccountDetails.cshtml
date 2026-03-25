@@ -1,0 +1,24 @@
+@model Customer
+<h2>Customer Details</h2>
+<div class="card">
+    <p><strong>ID:</strong> @Model.CustomerId</p>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Contact:</strong> @Model.ContactInfo</p>
+    <h3>Accounts</h3>
+    <table>
+        <tr><th>Account Id</th><th>Type</th><th>Balance</th></tr>
+        @foreach (var account in Model.Accounts)
+        {
+            <tr><td>@account.AccountId</td><td>@account.AccountType</td><td>@account.Balance</td></tr>
+        }
+    </table>
+    <h3>Loans</h3>
+    <table>
+        <tr><th>Loan Id</th><th>Amount</th><th>Interest</th><th>Status</th></tr>
+        @foreach (var loan in Model.Loans)
+        {
+            <tr><td>@loan.LoanId</td><td>@loan.LoanAmount</td><td>@loan.InterestRate</td><td>@loan.LoanStatus</td></tr>
+        }
+    </table>
+</div>

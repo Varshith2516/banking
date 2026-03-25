@@ -1,0 +1,10 @@
+@model CustomerAccountViewModel
+<h2>Create Customer Account</h2>
+<form asp-action="CreateAccount" method="post" class="card">
+    <label>Name</label><input asp-for="Name" />
+    <label>Email</label><input asp-for="Email" />
+    <label>Contact Info</label><input asp-for="ContactInfo" />
+    <label>Account Type</label><select asp-for="AccountType" asp-items="Html.GetEnumSelectList<AccountType>()"></select>
+    <label>Initial Balance</label><input asp-for="InitialBalance" />
+    <button type="submit">Save</button>
+</form>

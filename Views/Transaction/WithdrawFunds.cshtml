@@ -1,0 +1,7 @@
+@model DepositWithdrawViewModel
+<h2>Withdraw Funds</h2>
+<form asp-action="WithdrawFunds" method="post" class="card">
+    <label>Account Id</label><input asp-for="AccountId" />
+    <label>Amount</label><input asp-for="Amount" />
+    <button type="submit">Withdraw</button>
+</form>

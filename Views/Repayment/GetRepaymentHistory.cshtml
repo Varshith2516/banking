@@ -1,0 +1,14 @@
+@model List<Repayment>
+<h2>Repayment History for Loan @ViewBag.LoanId</h2>
+<table>
+    <tr><th>Repayment Id</th><th>Date</th><th>Amount Paid</th><th>Balance Remaining</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RepaymentId</td>
+            <td>@item.RepaymentDate</td>
+            <td>@item.AmountPaid</td>
+            <td>@item.BalanceRemaining</td>
+        </tr>
+    }
+</table>
